@@ -88,6 +88,7 @@ p {
 .footer p {
 	color: white;
 	text-align: right;
+	font-size: 12pt;
 }
 
 .carousel-inner img {
