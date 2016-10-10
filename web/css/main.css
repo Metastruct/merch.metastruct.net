@@ -82,7 +82,7 @@ p {
 }
 
 .footer {
-	background-color: lightgrey;
+	background-color: lightgray;
 }
 
 .footer p {
@@ -95,7 +95,7 @@ p {
 }
 
 .carousel-indicators .active {
-	background-color: darkgrey;
+	background-color: darkgray;
 }
 
 .carousel-indicators li {
@@ -122,6 +122,9 @@ p {
 #msa {
 	text-align: right;
 	margin-bottom: 75px;
+	padding: 25px;
+	background-color: #f5f5f5;
+	box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
 }
 
 #msa h2 {
@@ -129,7 +132,8 @@ p {
 }
 
 #msa p {
-	color: grey;
+	color: gray;
+	margin-bottom: 75px;
 }
 
 #msa .btn {
@@ -139,6 +143,10 @@ p {
 #meta1 {
 	text-align: left;
 	margin-bottom: 75px;
+	padding: 25px;
+	padding-bottom: 30px;
+	background-color: #f5f5f5;
+	box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
 }
 
 #meta1 .btn-group {
@@ -150,7 +158,12 @@ p {
 }
 
 #meta1 p {
-	color: grey;
+	color: gray;
+	margin-bottom: 75px;
+}
+
+#specs p {
+	color: gray;
 }
 
 #logo-footer {
