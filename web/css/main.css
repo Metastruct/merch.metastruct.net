@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+
+/* HTML ELEMENTS */
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 75pt;
+	margin-top: 0px;
+	color: rgb(72,31,71);
+}
+
+h2 {
+	font-size: 42pt;
+	margin-top: 0px;
+	color: rgb(72,31,71);
+}
+
+p {
+	font-size: 16pt;
+	color: rgb(148,64,145);
+}
+
+/* CLASSES */
+
+.head-img {
+	background-image: url(https://static.pexels.com/photos/29910/pexels-photo-29910.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 0px;
+	position: relative;
+	box-shadow: 0px 3px 6px rgba(0,0,0,.5);
+}
+
+.head-stripes {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-image: url(../img/stripes-bw.png);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+	opacity: 0.5;
+}
+
+.head-content {
+	padding-top: 300px;
+}
+
+.row-nav {
+	margin-top: 15px;
+}
+
+.jumbotron h1 {
+	color: white;
+	/*text-shadow: 2px 2px rgb(72,31,71);*/
+}
+
+.nav a {
+	color: white;
+}
+
+.nav a:hover {
+	color: #222;
+}
+
+.page .row {
+	margin-bottom: 50px;
+	text-align: justify;
+}
+
+.page img {
+	min-height: 200px;
+}
+
+.page-header {
+	text-align: center;
+}
+
+.footer {
+	background-color: lightgrey;
+}
+
+.footer p {
+	color: white;
+	text-align: right;
+}
+
+.carousel-inner img {
+	margin: 0 auto;
+}
+
+.carousel-indicators .active {
+	background-color: darkgrey;
+}
+
+.carousel-indicators li {
+	border: 1px solid #777;
+}
+
+.carousel-caption {
+	color: #555;
+	background-color: rgba(255,255,255,0.8);
+}
+
+.img-responsive {
+	margin: 0 auto;
+}
+
+/* IDs */
+
+#philo {
+	border-bottom: 1px solid rgb(72,31,71);
+	padding-bottom: 30px;
+	margin-bottom: 100px;
+}
+
+#msa {
+	text-align: right;
+	margin-bottom: 75px;
+}
+
+#msa h2 {
+	color: rgb(110,47,109);
+}
+
+#msa p {
+	color: grey;
+}
+
+#msa .btn {
+	margin-top: 25px;
+}
+
+#meta1 {
+	text-align: left;
+	margin-bottom: 75px;
+}
+
+#meta1 .btn-group {
+	margin-top: 25px;
+}
+
+#meta1 h2 {
+	color: rgb(110,47,109);
+}
+
+#meta1 p {
+	color: grey;
+}
+
+#logo-footer {
+	padding-left: 0px;
+}
