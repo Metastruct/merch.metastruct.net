@@ -55,17 +55,12 @@ p {
 	margin-top: 15px;
 }
 
-.jumbotron h1 {
-	color: white;
-	/*text-shadow: 2px 2px rgb(72,31,71);*/
-}
-
-.nav a {
+.nav li a {
 	color: white;
 }
 
-.nav a:hover {
-	color: #222;
+.nav li a:hover {
+	color: rgb(148,64,145);
 }
 
 .page .row {
@@ -114,7 +109,13 @@ p {
 
 /* IDs */
 
-#philo {
+#philo h1 {
+	text-align: left;
+	color: darkgray;
+	font-size: 50pt;
+}
+
+#philo-content {
 	border-bottom: 1px solid rgb(72,31,71);
 	padding-bottom: 30px;
 	margin-bottom: 100px;
