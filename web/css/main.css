@@ -75,6 +75,13 @@ p {
 	color: white;
 }
 
+.row-eq-height {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
 .page .row {
 	margin-bottom: 50px;
 	text-align: justify;
@@ -147,11 +154,12 @@ p {
 
 #msa p {
 	color: gray;
-	margin-bottom: 75px;
 }
 
 #msa .btn {
-	margin-top: 25px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
 }
 
 #meta1 {
@@ -164,7 +172,9 @@ p {
 }
 
 #meta1 .btn-group {
-	margin-top: 25px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
 }
 
 #meta1 h2 {
@@ -173,7 +183,6 @@ p {
 
 #meta1 p {
 	color: gray;
-	margin-bottom: 75px;
 }
 
 #specs p {
