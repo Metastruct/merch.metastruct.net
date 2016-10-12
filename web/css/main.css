@@ -16,12 +16,12 @@ h1 {
 h2 {
 	font-size: 42pt;
 	margin-top: 0px;
-	color: rgb(72,31,71);
+	color: rgb(110,47,109);
 }
 
 p {
 	font-size: 16pt;
-	color: rgb(148,64,145);
+	color: #808080;
 }
 
 /* CLASSES */
@@ -38,7 +38,7 @@ p {
 
 .head-stripes {
 	position: absolute;
-	height: 100%;
+	height: 300px;
 	width: 100%;
 	background-image: url(../img/stripes-bw.png);
 	background-size: contain;
@@ -52,7 +52,7 @@ p {
 }
 
 .row-nav {
-	margin-top: 15px;
+	background-color: rgba(24,24,24,0.5);
 }
 
 .nav li a {
@@ -61,6 +61,7 @@ p {
 
 .nav li a:hover {
 	color: rgb(148,64,145);
+	background-color: white;
 }
 
 .title-pic {
@@ -97,6 +98,7 @@ p {
 
 .footer {
 	background-color: lightgray;
+	box-shadow: 0px -3px 6px rgba(0,0,0,.35);
 }
 
 .footer p {
@@ -202,14 +204,6 @@ p {
 	box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
 }
 
-#msa h2 {
-	color: rgb(110,47,109);
-}
-
-#msa p {
-	color: gray;
-}
-
 #msa .btn {
 	position: absolute;
 	bottom: 0px;
@@ -234,18 +228,6 @@ p {
 	position: absolute;
 	bottom: 0px;
 	left: 0px;
-}
-
-#meta1 h2 {
-	color: rgb(110,47,109);
-}
-
-#meta1 p {
-	color: gray;
-}
-
-#specs p {
-	color: gray;
 }
 
 #logo-footer {
