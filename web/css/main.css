@@ -176,7 +176,7 @@ p {
 /* CLASSES */
 
 .head-img {
-	background-image: url(https://static.pexels.com/photos/29910/pexels-photo-29910.jpg);
+	background-image: url(../img/cover.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
