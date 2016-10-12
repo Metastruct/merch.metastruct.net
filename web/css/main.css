@@ -177,6 +177,108 @@ p {
 	background-size: 20px 40px;
 }
 
+.open>.dropdown-toggle.btn-info {
+	background-color: rgb(110,47,109);
+	border-color: rgb(38,16,38);
+	color: white;
+}
+
+.open>.dropdown-toggle.btn-info:focus {
+	background-color: rgb(110,47,109);
+	border-color: rgb(38,16,38);
+	color: white;
+}
+
+.open>.dropdown-toggle.btn-info:hover {
+	background-color: rgb(110,47,109);
+	border-color: rgb(38,16,38);
+	color: white;
+}
+
+.open>.dropdown-toggle.btn-info:active {
+	background-color: rgb(110,47,109);
+	border-color: rgb(38,16,38);
+	color: white;
+}
+
+.open>.dropdown-toggle.btn-info:active:focus {
+	background-color: rgb(110,47,109);
+	border-color: rgb(38,16,38);
+	color: white;
+}
+
+.open>.dropdown-toggle.btn-info:active:hover {
+	background-color: rgb(110,47,109);
+	border-color: rgb(38,16,38);
+	color: white;
+}
+
+.btn-info {
+	background-color: rgb(148,64,145);
+	border-color: rgb(110,47,109);
+	color: white;
+}
+
+.btn-info:hover {
+	background-color: rgb(148,64,145);
+	border-color: rgb(110,47,109);
+	color: white;
+}
+
+.btn-info:focus {
+	background-color: rgb(148,64,145);
+	border-color: rgb(110,47,109);
+	color: white;
+}
+
+.btn-info:active {
+	background-color: rgb(110,47,109);
+	border-color: rgb(38,16,38);
+	color: white;
+}
+
+.btn-info:active:focus {
+	background-color: rgb(110,47,109);
+	border-color: rgb(38,16,38);
+	color: white;
+}
+
+.btn-info:active:hover {
+	background-color: rgb(110,47,109);
+	border-color: rgb(38,16,38);
+	color: white;
+}
+
+.btn-default:hover {
+	background-color: rgb(148,64,145);
+	border-color: rgb(110,47,109);
+	color: white;
+}
+
+.btn-default:focus {
+	background-color: rgb(148,64,145);
+	border-color: rgb(110,47,109);
+	color: white;
+}
+
+.btn-default:active {
+	background-color: rgb(110,47,109);
+	border-color: rgb(38,16,38);
+	color: white;
+}
+
+.btn-default:active:focus {
+	background-color: rgb(110,47,109);
+	border-color: rgb(38,16,38);
+	color: white;
+}
+
+.btn-default:active:hover {
+	background-color: rgb(110,47,109);
+	border-color: rgb(38,16,38);
+	color: white;
+}
+
 /* IDs */
 
 #philo h1 {
