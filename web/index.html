@@ -10,13 +10,32 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
+		<div id="modal-about" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h3 class="metaicon-base">About</h3>
+					</div>
+					<div class="modal-body">
+						<p>Prints and this website by <a href="http://keylimepie.me" target="_blank">KeyLimePie</a>, 2016.<br/>
+						Want to see how all of this works? Visit the project page on <a href="https://github.com/TheKeyLimePie/metacups-web" target="_blank">GitHub</a> and leave a comment or a pull request to improve this website!
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
 		<div class="jumbotron text-left head-img">
 			<div class="head-stripes"></div>
 			<div class="container-fluid head-content">
 				<div class="row row-nav">
 					<ul class="nav navbar-nav">
 						<li><a href="#philo">\\\ Philosophy</a></li>
-						<li><a href="#mugs">\\\ MetaCups</a></li>
+						<li><a href="#metacups">\\\ MetaCups</a></li>
 					</ul>
 				</div>
 			</div>
@@ -49,7 +68,7 @@
 				</div>
 			</div>
 			
-			<div class="page-header" id="mugs">
+			<div class="page-header" id="metacups">
 				<h1 class="metaicon">MetaCups</h1>
 			</div>
 			
@@ -96,10 +115,7 @@
 		<div class="container-fluid footer">
 			<div class="row row-eq-height">
 				<div class="col-sm-12 col-md-1" id="logo-footer">
-					<img class="img-responsive" src="img/metastruct.png" alt="Meta Construct">
-				</div>
-				<div class="col-sm-12 col-md-5 col-md-offset-6">
-					<p>KeyLimePie, 2016</p>
+					<a data-toggle="modal" data-target="#modal-about" href="#"><img class="img-responsive" src="img/metastruct-bw.png" alt="Meta Construct"></a>
 				</div>
 			</div>
 		</div>

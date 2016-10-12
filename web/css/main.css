@@ -11,8 +11,19 @@ h1 {
 	font-size: 75pt;
 	margin-top: 0px;
 	color: rgb(72,31,71);
-	
 	text-align: left;
+}
+
+h2 {
+	font-size: 42pt;
+	margin: 0px;
+	color: rgb(110,47,109);
+}
+
+h3 {
+	font-size: 24pt;
+	margin-top: 0px;
+	color: rgb(110,47,109);
 }
 
 @media (min-width: 768px) {
@@ -162,11 +173,6 @@ h1 {
 		vertical-align: baseline;
 	}
 }
-h2 {
-	font-size: 42pt;
-	margin-top: 0px;
-	color: rgb(110,47,109);
-}
 
 p {
 	font-size: 16pt;
@@ -174,6 +180,18 @@ p {
 }
 
 /* CLASSES */
+
+.modal-body {
+	padding-bottom: 25px;
+	text-align: justify;
+}
+
+.modal-footer {
+	background-image: url(../img/metastruct.png);
+	background-position: left;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
 
 .head-img {
 	background-image: url(../img/cover.jpg);
