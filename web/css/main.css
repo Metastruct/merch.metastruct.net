@@ -11,13 +11,157 @@ h1 {
 	font-size: 75pt;
 	margin-top: 0px;
 	color: rgb(72,31,71);
-	background-image: url(../img/stripes.png);
-	background-position: left;
-	background-repeat: no-repeat;
-	background-size: contain;
-	text-align: right;
+	
+	text-align: left;
 }
 
+@media (min-width: 768px) {
+	h1.metaicon:before {
+		content: " ";
+		height: 75pt;
+		width: 108pt;
+		display: inline-block;
+		background-image: url(../img/stripes.png);
+		background-position: left;
+		background-repeat: no-repeat;
+		background-size: contain;
+		vertical-align: text-bottom;
+	}
+	
+	h2.metaicon:before {
+		content: " ";
+		height: 42pt;
+		width: 61pt;
+		display: inline-block;
+		background-image: url(../img/stripes.png);
+		background-position: left;
+		background-repeat: no-repeat;
+		background-size: contain;
+		vertical-align: text-bottom;
+	}
+	
+	h1.metaicon-black:before {
+		content: " ";
+		height: 75pt;
+		width: 108pt;
+		display: inline-block;
+		background-image: url(../img/stripes-black.png);
+		background-position: left;
+		background-repeat: no-repeat;
+		background-size: contain;
+		vertical-align: text-bottom;
+	}
+	
+	h2.metaicon-black:before {
+		content: " ";
+		height: 42pt;
+		width: 61pt;
+		display: inline-block;
+		background-image: url(../img/stripes-black.png);
+		background-position: left;
+		background-repeat: no-repeat;
+		background-size: contain;
+		vertical-align: text-bottom;
+	}
+	
+	h1.metaicon-white:before {
+		content: " ";
+		height: 75pt;
+		width: 108pt;
+		display: inline-block;
+		background-image: url(../img/stripes-white.png);
+		background-position: left;
+		background-repeat: no-repeat;
+		background-size: contain;
+		vertical-align: text-bottom;
+	}
+	
+	h2.metaicon-white:before {
+		content: " ";
+		height: 42pt;
+		width: 61pt;
+		display: inline-block;
+		background-image: url(../img/stripes-white.png);
+		background-position: left;
+		background-repeat: no-repeat;
+		background-size: contain;
+		vertical-align: text-bottom;
+	}
+	
+	/* Icon aligned on baseline */
+	
+	h1.metaicon-base:before {
+		content: " ";
+		height: 75pt;
+		width: 108pt;
+		display: inline-block;
+		background-image: url(../img/stripes.png);
+		background-position: left;
+		background-repeat: no-repeat;
+		background-size: contain;
+		vertical-align: baseline;
+	}
+	
+	h2.metaicon-base:before {
+		content: " ";
+		height: 42pt;
+		width: 61pt;
+		display: inline-block;
+		background-image: url(../img/stripes.png);
+		background-position: left;
+		background-repeat: no-repeat;
+		background-size: contain;
+		vertical-align: baseline;
+	}
+	
+	h1.metaicon-black-base:before {
+		content: " ";
+		height: 75pt;
+		width: 108pt;
+		display: inline-block;
+		background-image: url(../img/stripes-black.png);
+		background-position: left;
+		background-repeat: no-repeat;
+		background-size: contain;
+		vertical-align: baseline;
+	}
+	
+	h2.metaicon-black-base:before {
+		content: " ";
+		height: 42pt;
+		width: 61pt;
+		display: inline-block;
+		background-image: url(../img/stripes-black.png);
+		background-position: left;
+		background-repeat: no-repeat;
+		background-size: contain;
+		vertical-align: baseline;
+	}
+	
+	h1.metaicon-white-base:before {
+		content: " ";
+		height: 75pt;
+		width: 108pt;
+		display: inline-block;
+		background-image: url(../img/stripes-white.png);
+		background-position: left;
+		background-repeat: no-repeat;
+		background-size: contain;
+		vertical-align: baseline;
+	}
+	
+	h2.metaicon-white-base:before {
+		content: " ";
+		height: 42pt;
+		width: 61pt;
+		display: inline-block;
+		background-image: url(../img/stripes-white.png);
+		background-position: left;
+		background-repeat: no-repeat;
+		background-size: contain;
+		vertical-align: baseline;
+	}
+}
 h2 {
 	font-size: 42pt;
 	margin-top: 0px;
@@ -45,7 +189,7 @@ p {
 	position: absolute;
 	height: 300px;
 	width: 100%;
-	background-image: url(../img/stripes-bw.png);
+	background-image: url(../img/stripes-black.png);
 	background-size: contain;
 	background-position: left;
 	background-repeat: no-repeat;
