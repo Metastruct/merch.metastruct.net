@@ -30,7 +30,7 @@ h3 {
 	h1.metaicon:before {
 		content: " ";
 		height: 75pt;
-		width: 108pt;
+		width: 109pt;
 		display: inline-block;
 		background-image: url(../img/stripes.png);
 		background-position: left;
@@ -54,7 +54,7 @@ h3 {
 	h1.metaicon-black:before {
 		content: " ";
 		height: 75pt;
-		width: 108pt;
+		width: 109pt;
 		display: inline-block;
 		background-image: url(../img/stripes-black.png);
 		background-position: left;
@@ -78,7 +78,7 @@ h3 {
 	h1.metaicon-white:before {
 		content: " ";
 		height: 75pt;
-		width: 108pt;
+		width: 109pt;
 		display: inline-block;
 		background-image: url(../img/stripes-white.png);
 		background-position: left;
@@ -104,7 +104,7 @@ h3 {
 	h1.metaicon-base:before {
 		content: " ";
 		height: 75pt;
-		width: 108pt;
+		width: 109pt;
 		display: inline-block;
 		background-image: url(../img/stripes.png);
 		background-position: left;
@@ -128,7 +128,7 @@ h3 {
 	h1.metaicon-black-base:before {
 		content: " ";
 		height: 75pt;
-		width: 108pt;
+		width: 109pt;
 		display: inline-block;
 		background-image: url(../img/stripes-black.png);
 		background-position: left;
@@ -152,7 +152,7 @@ h3 {
 	h1.metaicon-white-base:before {
 		content: " ";
 		height: 75pt;
-		width: 108pt;
+		width: 109pt;
 		display: inline-block;
 		background-image: url(../img/stripes-white.png);
 		background-position: left;
