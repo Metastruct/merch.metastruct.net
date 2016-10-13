@@ -181,6 +181,15 @@ p {
 
 /* CLASSES */
 
+.bottom-border {
+	border-bottom: 1px solid rgb(148,64,145);
+	padding-bottom: 30px;
+}
+
+.row-margin-bottom {
+	margin-bottom: 50px;
+}
+
 .modal-body {
 	padding-bottom: 25px;
 	text-align: justify;
@@ -249,19 +258,6 @@ p {
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-}
-
-.page .row {
-	margin-bottom: 50px;
-	text-align: justify;
-}
-
-.page img {
-	min-height: 200px;
-}
-
-.page-header {
-	text-align: center;
 }
 
 .footer {
@@ -447,31 +443,62 @@ p {
 	color: white;
 }
 
+.cupcard-left {
+	text-align: left;
+	padding: 25px;
+	background-color: #f5f5f5;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
+}
+
+.cupcard-right {
+	text-align: right;
+	padding: 25px;
+	background-color: #f5f5f5;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
+}
+
 /* IDs */
 
-#philo h1 {
+#philo .row {
+	text-align: justify;
+}
+
+#philo img {
+	min-height: 200px;
+}
+
+#philosophy h1 {
 	color: darkgray;
 	font-size: 50pt;
 	background: none;
 	text-align: center;
 }
 
-#philo-content {
-	border-bottom: 1px solid rgb(148,64,145);
-	padding-bottom: 30px;
-	margin-bottom: 100px;
+#metacups {
+	background-image: url(../img/table.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-bottom: 0px;
+	border-bottom: none;
+}
+
+#metacups h1 {
+	color: white;
+	margin-bottom: 0px;
 }
 
 #msa {
-	text-align: right;
-	padding: 25px;
-	background-color: #f5f5f5;
 	background-image: url(../img/suitcase.jpg);
-	background-size: conver;
-	background-position: center;
-	background-repeat: no-repeat;
-	border-radius: 5px;
-	box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
 }
 
 #msa .btn {
@@ -481,15 +508,7 @@ p {
 }
 
 #meta1 {
-	text-align: left;
-	padding: 25px;
-	background-color: #f5f5f5;
 	background-image: url(../img/people.jpg);
-	background-size: conver;
-	background-position: center;
-	background-repeat: no-repeat;
-	border-radius: 5px;
-	box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
 }
 
 #meta1 .btn-group {
