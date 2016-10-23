@@ -465,6 +465,17 @@ p {
 	box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
 }
 
+.postercard {
+	text-align: center;
+	padding: 25px;
+	background-color: #f5f5f5;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
+}
+
 /* IDs */
 
 #philo .row {
@@ -520,6 +531,26 @@ p {
 
 #specs p {
 	font-size: 12pt;
+}
+
+#metaposter {
+	background-image: url(../img/subway.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-bottom: 0px;
+	border-bottom: none;
+}
+
+#metaposter h1 {
+	color: white;
+	margin-bottom: 0px;
+	line-height: 0;
+}
+
+#movieposter {
+	background-image: url(../img/popcorn.jpg);
 }
 
 #logo-footer {
