@@ -489,6 +489,10 @@ p {
 	background: none;
 }
 
+.specs p {
+	font-size: 12pt;
+}
+
 /* IDs */
 
 #philo .row {
@@ -542,11 +546,7 @@ p {
 	left: 0px;
 }
 
-#specs p {
-	font-size: 12pt;
-}
-
-#metashirt {
+#metawear {
 	background-image: url(../img/fashion.jpg);
 	background-position: center;
 	background-size: cover;
@@ -561,16 +561,42 @@ p {
 }
 
 
-#metashirt h1 {
+#metawear h1 {
 	color: white;
 	margin-bottom: 0px;
 	line-height: 0;
 }
 
-#metashirt-carousel {
+#construct-2018-carousel {
 	padding: 4px;
     background-color: #fff;
     border: 1px solid #ddd;
+}
+
+#metagoods {
+	background-image: url(../img/work.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-bottom: 0px;
+	border-bottom: none;
+}
+
+#metagoods h1 {
+	color: white;
+	margin-bottom: 0px;
+	line-height: 0;
+}
+
+#msa-mousepad {
+	background-image: url(../img/suitcase.jpg);
+}
+
+#msa-mousepad .btn {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
 }
 
 #metaposter {
