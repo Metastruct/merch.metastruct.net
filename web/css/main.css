@@ -476,6 +476,19 @@ p {
 	box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
 }
 
+.disclaimer {
+	font-size: 12pt;
+	color: #aaa;
+}
+
+.carousel-control.left {
+	background: none;
+}
+
+.carousel-control.right {
+	background: none;
+}
+
 /* IDs */
 
 #philo .row {
@@ -531,6 +544,33 @@ p {
 
 #specs p {
 	font-size: 12pt;
+}
+
+#metashirt {
+	background-image: url(../img/fashion.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-bottom: 0px;
+	border-bottom: none;
+}
+
+#construct-2018 {
+	background-image: url(../img/hangers.jpg);
+}
+
+
+#metashirt h1 {
+	color: white;
+	margin-bottom: 0px;
+	line-height: 0;
+}
+
+#metashirt-carousel {
+	padding: 4px;
+    background-color: #fff;
+    border: 1px solid #ddd;
 }
 
 #metaposter {
