@@ -271,6 +271,12 @@ p {
 	font-size: 12pt;
 }
 
+.carousel {
+	padding: 4px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
 .carousel-inner img {
 	margin: 0 auto;
 }
@@ -565,12 +571,6 @@ p {
 	color: white;
 	margin-bottom: 0px;
 	line-height: 0;
-}
-
-#construct-2018-carousel {
-	padding: 4px;
-    background-color: #fff;
-    border: 1px solid #ddd;
 }
 
 #metagoods {
