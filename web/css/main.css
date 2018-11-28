@@ -13,7 +13,12 @@
 
 @keyframes text {
 	from {opacity: 0; margin-top: -2.5rem;}
-	to {opacity: 0.5; margin-top: 0rem;}
+	to {opacity: 0.3; margin-top: 0rem;}
+}
+
+@keyframes text-color {
+	from {color: white; opacity: 0.3;}
+	to {color: rgb(148,64,145); opacity: 1;}
 }
 
 /* HTML ELEMENTS */
@@ -61,8 +66,27 @@ body {
 }
 
 .navbar .navbar-brand {
+	transition: 0.25s ease;
 	color: white;
 	opacity: 0.2;
+}
+
+.navbar .navbar-brand:hover {
+	transition: 0.25s ease;
+	color: white;
+	opacity: 1;
+}
+
+.navbar .navbar-toggler {
+	transition: 0.25s ease;
+	color: white;
+	opacity: 0.2;
+}
+
+.navbar .navbar-toggler:hover {
+	transition: 0.25s ease;
+	color: white;
+	opacity: 1;
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
@@ -89,6 +113,11 @@ body {
 
 .navbar-convert .navbar-brand {
 	color: rgb(72, 31, 71);
+	opacity: 1;
+}
+
+.navbar-convert .navbar-brand:hover {
+	color: rgb(148,64,145);
 	opacity: 1;
 }
 
@@ -148,11 +177,11 @@ body {
 
 #head-text {
 	opacity: 0;
-	animation-name: text;
-	animation-duration: 1s;
-	animation-delay: 1s;
+	animation-name: text, text-color;
+	animation-duration: 1s, 0.3s;
+	animation-delay: 1s, 3s;
 	animation-iteration-count: 1;
-	animation-timing-function: ease;
+	animation-timing-function: ease, linear;
 	animation-fill-mode: forwards;
 }
 
