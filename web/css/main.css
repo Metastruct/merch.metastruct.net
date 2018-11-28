@@ -69,18 +69,19 @@ body {
 .navbar {
 	transition: 0.25s ease;
 	background-color: none;
+	min-height: 5rem;
 }
 
 .navbar .navbar-brand img {
 	width: auto;
 	height: 1.25rem;
-	opacity: 0.2;
+	opacity: 0.3;
 }
 
 .navbar .navbar-brand {
 	transition: 0.25s ease;
 	color: white;
-	opacity: 0.2;
+	opacity: 0.3;
 }
 
 .navbar .navbar-brand:hover {
@@ -92,7 +93,11 @@ body {
 .navbar .navbar-toggler {
 	transition: 0.25s ease;
 	color: white;
-	opacity: 0.2;
+	opacity: 0.3;
+}
+
+.navbar .navbar-toggler:focus {
+	outline: none;
 }
 
 .navbar .navbar-toggler:hover {
@@ -104,7 +109,7 @@ body {
 .navbar .navbar-nav .nav-item .nav-link {
 	transition: 0.25s ease;
 	color: white;
-	opacity: 0.2;
+	opacity: 0.3;
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover {
@@ -130,6 +135,22 @@ body {
 
 .navbar-convert .navbar-brand:hover {
 	color: rgb(148,64,145);
+	opacity: 1;
+}
+
+.navbar-convert .navbar-toggler {
+	transition: 0.25s ease;
+	color: black;
+	opacity: 0.2;
+}
+
+.navbar-convert .navbar-toggler:focus {
+	outline: none;
+}
+
+.navbar-convert .navbar-toggler:hover {
+	transition: 0.25s ease;
+	color: black;
 	opacity: 1;
 }
 
