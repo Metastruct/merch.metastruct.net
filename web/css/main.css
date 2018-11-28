@@ -282,17 +282,6 @@ body {
 	border-width: .25rem;
 }
 
-.footer {
-	background-color: lightgray;
-	box-shadow: 0px -3px 6px rgba(0,0,0,.35);
-}
-
-.footer p {
-	color: white;
-	text-align: right;
-	font-size: 12pt;
-}
-
 .carousel {
 	padding: 4px;
     background-color: #fff;
@@ -320,11 +309,41 @@ a {
 
 a:focus, a:hover {
 	text-decoration: none;
-	color: rgb(72, 31, 71);
+	color: rgb(178,94,175);
 }
 
 .bg-black {
 	background-color: #161616;
+}
+
+.card {
+	border: 0;
+	transition: 0.2s;
+	border-bottom: 0.25rem solid rgb(148,64,145);
+	opacity: 0.8;
+	color: rgb(72, 31, 71);
+}
+
+.card:hover {
+	transition: 0.2s;
+	opacity: 1;
+}
+
+.card-body i {
+	font-size: 3rem;
+}
+
+.card-body img {
+	height: 3rem;
+	width: auto;
+}
+
+.card-body h4 {
+	letter-spacing: 0.15rem;
+	text-transform: uppercase;
+	font-size: 1rem;
+	margin-top: 2rem;
+	margin-bottom: 0;
 }
 
 footer {
