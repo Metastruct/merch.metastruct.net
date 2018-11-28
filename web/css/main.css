@@ -26,7 +26,7 @@
 		background-position: 0% 50%
 	}
 	50% {
-		background-position: 100% 50%
+		background-position: 75% 50%
 	}
 	100% {
 		background-position: 0% 50%
@@ -170,7 +170,7 @@ body {
 	background-color: rgb(72, 31, 71);
 	background: linear-gradient(45deg, rgb(72, 31, 71), rgb(72, 31, 71), rgb(148,64,145), rgb(148,64,145));
 	background-size: 400% 400%;
-	animation: head-gradient 6s ease 1;
+	animation: head-gradient 3s ease 1;
 	animation-fill-mode: forwards;
 }
 
@@ -196,7 +196,7 @@ body {
 	opacity: 0;
 	animation-name: text, text-color;
 	animation-duration: 1s, 0.2s;
-	animation-delay: 1s, 3s;
+	animation-delay: 1s, 4s;
 	animation-iteration-count: 1;
 	animation-timing-function: ease, linear;
 	animation-fill-mode: forwards;
