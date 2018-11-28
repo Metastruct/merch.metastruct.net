@@ -21,6 +21,18 @@
 	to {color: rgb(148,64,145); opacity: 1;}
 }
 
+@keyframes head-gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
 /* HTML ELEMENTS */
 
 body {
@@ -156,7 +168,10 @@ body {
 	color: white;
 	font-family: "Colaborate-Thin";
 	background-color: rgb(72, 31, 71);
-	/* background: linear-gradient(to bottom, rgb(99, 43, 94) 0%,rgb(72, 31, 71) 100%); */
+	background: linear-gradient(45deg, rgb(72, 31, 71), rgb(72, 31, 71), rgb(148,64,145), rgb(148,64,145));
+	background-size: 400% 400%;
+	animation: head-gradient 6s ease 1;
+	animation-fill-mode: forwards;
 }
 
 .head-intro h1:before {
@@ -257,7 +272,13 @@ body {
 	color: white;
 }
 
-.btn-secondary:active {
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary.dropdown-toggle:active, .btn-secondary:active {
+	background-color: rgb(148,64,145);
+	border-color: rgb(38,16,38);
+	color: white;
+}
+
+.show>.btn-secondary.dropdown-toggle {
 	background-color: rgb(148,64,145);
 	border-color: rgb(38,16,38);
 	color: white;
@@ -301,6 +322,7 @@ body {
 
 .specs {
 	font-size: 0.8rem;
+	color: #aaa;
 }
 
 a {
