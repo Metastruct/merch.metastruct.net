@@ -18,7 +18,7 @@
 
 @keyframes text-color {
 	from {color: white; opacity: 0.2;}
-	to {color: rgb(148,64,145); opacity: 1;}
+	to {color: white; opacity: 0.75;}
 }
 
 @keyframes head-gradient {
@@ -26,7 +26,7 @@
 		background-position: 0% 50%
 	}
 	50% {
-		background-position: 75% 50%
+		background-position: 100% 50%
 	}
 	100% {
 		background-position: 0% 50%
@@ -189,9 +189,11 @@ body {
 	color: white;
 	font-family: "Colaborate-Thin";
 	background-color: rgb(72, 31, 71);
-	background: linear-gradient(45deg, rgb(72, 31, 71), rgb(72, 31, 71), rgb(148,64,145), rgb(148,64,145));
+	background: linear-gradient(30deg, rgb(72, 31, 71), rgb(72, 31, 71), rgb(148,64,145), #98D2EB, #E1F2FE);
 	background-size: 400% 400%;
+	background-position: 0% 50%;
 	animation: head-gradient 3s ease 1;
+	animation-delay: 1s;
 	animation-fill-mode: forwards;
 }
 
@@ -217,7 +219,7 @@ body {
 	opacity: 0;
 	animation-name: text, text-color;
 	animation-duration: 1s, 0.2s;
-	animation-delay: 1s, 4s;
+	animation-delay: 1s, 4.5s;
 	animation-iteration-count: 1;
 	animation-timing-function: ease, linear;
 	animation-fill-mode: forwards;
