@@ -205,7 +205,7 @@ body {
 	color: white;
 	font-family: "Colaborate-Thin";
 	background-color: rgb(72, 31, 71);
-	background: linear-gradient(30deg, rgb(72, 31, 71), rgb(72, 31, 71), rgb(148,64,145), #98D2EB, #E1F2FE);
+	background: linear-gradient(60deg, rgb(72, 31, 71), rgb(72, 31, 71), rgb(148,64,145), #98D2EB, #E1F2FE);
 	background-size: 400% 400%;
 	background-position: 0% 50%;
 	animation: head-gradient 3s ease 1;
