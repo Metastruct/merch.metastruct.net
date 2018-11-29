@@ -90,9 +90,17 @@ body {
 	opacity: 1;
 }
 
-.navbar .navbar-toggler {
+.navbar .navbar-brand:focus {
 	transition: 0.25s ease;
 	color: white;
+	opacity: 1;
+}
+
+.navbar .navbar-toggler {
+	border: none;
+	transition: 0.25s ease;
+	color: grey;
+	background-color: white;
 	opacity: 0.3;
 }
 
@@ -102,7 +110,7 @@ body {
 
 .navbar .navbar-toggler:hover {
 	transition: 0.25s ease;
-	color: white;
+	color: grey;
 	opacity: 1;
 }
 
@@ -134,14 +142,22 @@ body {
 }
 
 .navbar-convert .navbar-brand:hover {
+	transition: 0.25s ease;
+	color: rgb(148,64,145);
+	opacity: 1;
+}
+
+.navbar-convert .navbar-brand:focus {
+	transition: 0.25s ease;
 	color: rgb(148,64,145);
 	opacity: 1;
 }
 
 .navbar-convert .navbar-toggler {
+	border: none;
 	transition: 0.25s ease;
 	color: black;
-	opacity: 0.2;
+	opacity: 0.3;
 }
 
 .navbar-convert .navbar-toggler:focus {
