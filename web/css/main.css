@@ -38,12 +38,21 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	background-color: #f8f8f8;
+	font-size: 1.2rem;
+}
+
+h2 {
+	font-size: 2.5rem;
 }
 
 /* CLASSES */
 
 .color-meta-dark {
 	color: rgb(72, 31, 71);
+}
+
+.color-meta-medium {
+	color: rgb(110, 47, 109);
 }
 
 .color-meta-light {
@@ -205,7 +214,7 @@ body {
 	color: white;
 	font-family: "Colaborate-Thin";
 	background-color: rgb(72, 31, 71);
-	background: linear-gradient(60deg, rgb(72, 31, 71), rgb(72, 31, 71), rgb(148,64,145), #98D2EB, #E1F2FE);
+	background: linear-gradient(60deg, rgb(42, 1, 41), rgb(72, 31, 71), rgb(148,64,145), #98D2EB);
 	background-size: 400% 400%;
 	background-position: 0% 50%;
 	animation: head-gradient 3s ease 1;
@@ -355,12 +364,12 @@ body {
 }
 
 .disclaimer {
-	font-size: 0.8rem;
+	font-size: 1rem;
 	color: #aaa;
 }
 
 .specs {
-	font-size: 0.8rem;
+	font-size: 1rem;
 	color: #aaa;
 }
 
